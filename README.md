@@ -591,11 +591,7 @@ chmod +x parser.sh
 ### Bulto tool:
 https://github.com/darryllane/Bluto
 
-
 ![alt text](./images/01.png)
-
-
-
 
 ![alt text](./images/02.png)
 
@@ -882,6 +878,7 @@ Understanding the difference between **reverse shells** and **bind shells** is c
 **Illustrations:**
 
 ![Reverse Shell](./images/image.png)
+
 ![Bind Shell](./images/image-1.png)
 
 ---
@@ -893,7 +890,9 @@ Identifying the correct service and version is vital before launching exploits.
 **Service Discovery Process:**
 
 ![Target Identification](./images/image-3.png)
+
 ![Attacker Perspective](./images/image-2.png)
+
 ![Service Found](./images/image-4.png)
 
 ---
@@ -905,8 +904,11 @@ Once the vulnerability is confirmed, exploits can be tested.
 **Example: OpenLuck Exploit:**
 
 ![OpenLuck Exploit](./images/image-5.png)
+
 ![Exploit Running](./images/image-6.png)
+
 ![Exploit Successfully Run](./images/image-7.png)
+
 ![Shell Obtained](./images/image-8.png)
 
 **Payload Types:**
@@ -933,6 +935,7 @@ nmap -T4 -p- -A 10.10.10.3
 Exploiting services with weak or anonymous login:
 
 ![Anonymous Login](./images/image-11.png)
+
 ![Machine Exploited](./images/image-12.png)
 
 ---
@@ -944,6 +947,7 @@ Collect passwords and credentials from dumped files and leaked databases.
 **Credential Collection Example:**
 
 ![Password Files](./images/image-13.png)
+
 ![Passwords Listing](./images/image-14.png)
 
 **Parsing Breached Data:**
@@ -961,8 +965,11 @@ Using Burp Suite for manual credential stuffing attacks.
 **Proxy and Login Attempts:**
 
 ![Proxy Error](./images/image-16.png)
+
 ![Burp Certificate Setup](./images/image-17.png)
+
 ![Login Details Found](./images/image-18.png)
+
 ![Successful Login](./images/image-19.png)
 
 ---
@@ -1023,6 +1030,7 @@ It’s ideal to run **Responder** during times when many users are logging in, t
 ### Responder Setting Up
 
 ![Setting Up](./images/image-24.png)
+
 ![Setting Up](./images/image-25.png)
 ---
 ### Listening for events
@@ -1131,6 +1139,7 @@ Understanding **NTLM relay**, **token impersonation**, and **PsExec** exploitati
 ### Exploit Configuration:
 
 ![Configuration](./images/image-37.png)
+
 ![target](./images/image-38.png)
 
 ### Running the Exploit:
@@ -1139,7 +1148,9 @@ Understanding **NTLM relay**, **token impersonation**, and **PsExec** exploitati
 
 ### System Access Achieved:
 ![Access](./images/image-40.png)
+
 ![Continued Session](./images/image-41.png)
+
 ![Hash Dump](./images/image-42.png)
 
 
@@ -1236,6 +1247,7 @@ run
 If the first attempt does not succeed, we try again or adjust the exploit settings. Sometimes, multiple attempts are necessary before a successful exploitation.
 
 ![msfconsole attempt success](./images/image-49.png)
+
 ![gain access](./images/image-50.png)
 
 ---
@@ -1245,6 +1257,7 @@ If the first attempt does not succeed, we try again or adjust the exploit settin
 If the MS17-010 exploit does not work, we attempt a different exploit module within Metasploit. The choice of exploit may vary depending on the target system and its configurations.
 
 ![different exploit](./images/image-51.png)
+
 ![exploit running](./images/image-52.png)
 
 ```bash
@@ -1253,6 +1266,7 @@ run
 - After running the new exploit, we successfully capture the target machine.
 
 ![machine obtained](./images/image-53.png)
+
 ![shell access, hash obtained](./images/image-54.png)
 
 ---
@@ -1312,7 +1326,9 @@ hashcat -m 13100 kerberoast.txt
 ```
 
 ![hashcat output](./images/image-61.png)
+
 ![hashcat result](./images/image-62.png)
+
 ![hashcat result 2](./images/image-63.png)
 
 ---
@@ -1442,6 +1458,7 @@ run
 The results of the scan show open ports and services that can be exploited.
 
 ![auxiliary](./images/image-78.png)
+
 ![Reverse TCP](./images/image-79.png)
 ---
 
