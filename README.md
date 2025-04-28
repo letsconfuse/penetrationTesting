@@ -16,7 +16,7 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 - [Part 7 - Exploitation, Reverse Shells, and Credential Stuffing](#part-7-Exploitation-Reverse-Shells-and-Credential-Stuffing)
 - [Part 8 - Building an AD Lab, LLMNR Poisoning, and NTLMv2 Cracking with Hashcat](#part-8-Building-an-AD-Lab-LLMNR-Poisoning-and-NTLMv2-Cracking-with-Hashcat)
 - [Part 9 - NTLM Relay, Token Impersonation, and PsExec](#part-9-NTLM-Relay-Token-Impersonation-and-PsExec)
-- [Part 10 - MS17-010 (EternalBlue), GPP cPasswords, and Kerberoasting](#part-10-MS17-010-(EternalBlue)-GPP-cPasswords-and-Kerberoasting)
+- [Part 10 - MS17-010 (EternalBlue), GPP cPasswords, and Kerberoasting](#part-10-MS17-010-EternalBlue-GPP-cPasswords-and-Kerberoasting)
 - [Part 11 - File Transfers, Pivoting, and Cleanup](#part-11-file-transfers-pivoting-and-cleanup)
 
 ---
