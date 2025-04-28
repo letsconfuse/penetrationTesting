@@ -10,7 +10,7 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 - [Part 1 - Network Scanning with Bash Scripts](#part-1-network-scanning-with-bash-scripts)
 - [Part 2 - Python Basics](#part-2-python-basics)
 - [Part 3 - Python Port Scanner](#part-3-python-port-scanner)
-- [Part 4 - Information Gathering](#part-4-information-gathering)
+- [Part 4 - Information Gathering](#part-4-Information-Gathering-and-Reconnaissance)
 - [Part 5 - Network Scanning Tools](#part-5-network-scanning-tools)
 - [Part 6 - Vulnerability Discovery](#part-6-vulnerability-discovery)
 - [Part 7 - Exploitation and Gaining Access](#part-7-exploitation-and-gaining-access)
