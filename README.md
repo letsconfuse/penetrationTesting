@@ -590,8 +590,8 @@ chmod +x parser.sh
 
 ### Bulto tool:
 https://github.com/darryllane/Bluto
-![alt text](part4/01.png)
-![alt text](part4/02.png)
+![alt text](./images/01.png)
+![alt text](./images/02.png)
 
 
 ---
