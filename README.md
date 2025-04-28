@@ -7,17 +7,17 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 ---
 
 ## Table of Contents
-- [Part 1 - Network Scanning with Bash Scripts](#Part-1---Network-Scanning-with-Bash-Scripts)
-- [Part 2 - Python Basics](#Part-2-python-basics)
-- [Part 3 - Python Port Scanner](#part-3---python-port-scanner)
-- [Part 4 - Information Gathering](#part-4---information-gathering)
-- [Part 5 - Network Scanning Tools](#part-5---network-scanning-tools)
-- [Part 6 - Vulnerability Discovery](#part-6---vulnerability-discovery)
-- [Part 7 - Exploitation and Gaining Access](#part-7---exploitation-and-gaining-access)
-- [Part 8 - Active Directory Attacks](#part-8---active-directory-attacks)
-- [Part 9 - NTLM Relay and Token Impersonation](#part-9---ntlm-relay-and-token-impersonation)
-- [Part 10 - MS17-010 and Kerberoasting](#part-10---ms17-010-and-kerberoasting)
-- [Part 11 - File Transfers, Pivoting, and Cleanup](#part-11---file-transfers-pivoting-and-cleanup)
+- [Part 1 - Network Scanning with Bash Scripts](#part-1-network-scanning-with-bash-scripts)
+- [Part 2 - Python Basics](#part-2-python-basics)
+- [Part 3 - Python Port Scanner](#part-3-python-port-scanner)
+- [Part 4 - Information Gathering](#part-4-information-gathering)
+- [Part 5 - Network Scanning Tools](#part-5-network-scanning-tools)
+- [Part 6 - Vulnerability Discovery](#part-6-vulnerability-discovery)
+- [Part 7 - Exploitation and Gaining Access](#part-7-exploitation-and-gaining-access)
+- [Part 8 - Active Directory Attacks](#part-8-active-directory-attacks)
+- [Part 9 - NTLM Relay and Token Impersonation](#part-9-ntlm-relay-and-token-impersonation)
+- [Part 10 - MS17-010 and Kerberoasting](#part-10-ms17-010-and-kerberoasting)
+- [Part 11 - File Transfers, Pivoting, and Cleanup](#part-11-file-transfers-pivoting-and-cleanup)
 
 ---
 
