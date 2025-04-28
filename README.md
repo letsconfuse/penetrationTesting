@@ -282,12 +282,141 @@ if __name__ == '__main__':
 These foundational Python scripts are stepping stones towards creating sophisticated cybersecurity tools for automation, exploitation, and reconnaissance.
 ---
 
-## Part 3: Python Port Scanner
+# Part 3: Python Port Scanner
 
-**Python Script:**
+This section introduces a **simple TCP port scanner built with Python**. Port scanning is a fundamental step in reconnaissance to identify open services on a network. Using Python's `socket` library, we can automate and customize scanning processes easily.
 
-- Simple TCP port scanner using sockets.
-- Scans a range of ports on a specified IP address to identify open services.
+---
+
+## Python Script: `scanner.py`
+
+The `scanner.py` script is a **Python-based port scanner** that scans a range of ports on a given target IP address and identifies which ports are open.
+
+### Script Code:
+
+```python
+#!/bin/python3
+
+import sys  # Allows us to enter command line arguments, among other things
+import socket
+from datetime import datetime
+
+# Define our target
+if len(sys.argv) == 2:
+    target = socket.gethostbyname(sys.argv[1])  # Translate a host name to IPv4
+else:
+    print("Invalid amount of arguments.")
+    print("Syntax: python3 scanner.py <ip>")
+    sys.exit()
+
+# Add a pretty banner
+print("-" * 50)
+print("Scanning target " + target)
+print("Time started: " + str(datetime.now()))
+print("-" * 50)
+
+try:
+    for port in range(50, 85):
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        socket.setdefaulttimeout(1)  # Timeout value is a float
+        result = s.connect_ex((target, port))  # Returns an error indicator
+        print("Checking port {}".format(port))
+        if result == 0:
+            print("Port {} is open".format(port))
+        s.close()
+
+except KeyboardInterrupt:
+    print("\nExiting program.")
+    sys.exit()
+
+except socket.gaierror:
+    print("Hostname could not be resolved.")
+    sys.exit()
+
+except socket.error:
+    print("Couldn't connect to server.")
+    sys.exit()
+```
+
+---
+
+## How `scanner.py` Works:
+
+- **Input Validation:**
+  - The script expects one argument: the target IP address or hostname.
+  - If not provided correctly, it shows usage instructions and exits.
+
+- **Target Resolution:**
+  - It uses `socket.gethostbyname()` to resolve the hostname into an IP address.
+
+- **Scanning Process:**
+  - Prints a banner with the target IP and current time.
+  - Scans ports from **50 to 85**.
+  - For each port:
+    - Creates a new socket.
+    - Sets a timeout of 1 second.
+    - Attempts to connect to the port using `connect_ex()`.
+    - If the result is `0`, the port is open.
+    - Prints open ports as they are discovered.
+
+- **Error Handling:**
+  - **KeyboardInterrupt:** Graceful exit when user presses `Ctrl+C`.
+  - **Socket.gaierror:** Handles invalid hostnames.
+  - **Socket.error:** Handles general connection errors.
+
+---
+
+## Example Usage:
+
+```bash
+python3 scanner.py 192.168.1.1
+```
+
+- This will scan ports **50 to 85** on the IP address `192.168.1.1` and display which ports are open.
+
+---
+
+## Important Points:
+
+- **Timeout Settings:**
+  - Setting a timeout prevents the script from hanging if a port is filtered or unresponsive.
+
+- **Lightweight and Customizable:**
+  - Easy to modify the range of ports or add more detailed reporting.
+
+- **Error Handling:**
+  - Ensures the script doesn't crash unexpectedly and provides user-friendly error messages.
+
+- **Use of Banners:**
+  - Helps to visually organize the output when scanning multiple hosts.
+
+---
+
+## Potential Improvements:
+
+- Allow users to specify port ranges dynamically through command-line arguments.
+- Add multi-threading to speed up scanning.
+- Include service detection (e.g., guessing what service is running on the open port).
+- Save scan results into a log file.
+- Support both TCP and UDP scanning.
+
+---
+
+# Summary for Part 3
+
+In this part, you learned how to:
+
+- Build a simple TCP port scanner using Python.
+- Understand the basics of sockets and network communication in Python.
+- Perform structured error handling for a smoother user experience.
+- Customize scanning parameters such as port range and timeout values.
+
+This foundational project sets the stage for building more powerful scanning tools and integrating advanced features like multi-threading, service fingerprinting, and network mapping.
+
+---
+
+# Next Steps
+In the upcoming parts, we'll further expand on Python-based scanning and start automating vulnerability detection and exploitation techniques.
 
 ---
 
