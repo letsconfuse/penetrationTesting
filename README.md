@@ -10,15 +10,14 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 - [Part 1 - Network Scanning with Bash Scripts](#part-1-network-scanning-with-bash-scripts)
 - [Part 2 - Python Basics](#part-2-python-basics)
 - [Part 3 - Python Port Scanner](#part-3-python-port-scanner)
-- [Part 4 - Information Gathering](#part-4-Information-Gathering-and-Reconnaissance)
-- [Part 5 - Network Scanning Tools](#part-5-network-scanning-tools)
-- [Part 6 - Vulnerability Discovery](#part-6-vulnerability-discovery)
-- [Part 7 - Exploitation and Gaining Access](#part-7-exploitation-and-gaining-access)
-- [Part 8 - Active Directory Attacks](#part-8-active-directory-attacks)
-- [Part 9 - NTLM Relay and Token Impersonation](#part-9-ntlm-relay-and-token-impersonation)
+- [Part 4 - Information Gathering and Reconnaissance](#part-4-Information-Gathering-and-Reconnaissance)
+- [Part 5 - Network Scanning and Analysis Tools](#part-5-Network-Scanning-and-Analysis-Tools)
+- [Part 6 - Vulnerability Discovery and Enumeration](#part-6-Vulnerability-Discovery-and-Enumeration)
+- [Part 7 - Exploitation, Reverse Shells, and Credential Stuffing](#part-7-Exploitation-Reverse-Shells-and-Credential-Stuffing)
+- [Part 8 - Building an AD Lab, LLMNR Poisoning, and NTLMv2 Cracking with Hashcat](#part-8-Building-an-AD-Lab,-LLMNR-Poisoning,-and-NTLMv2-Cracking-with-Hashcat)
+- [Part 9 - NTLM Relay, Token Impersonation, and PsExec](#part-9-NTLM-Relay,-Token-Impersonation,-and-PsExec)
 - [Part 10 - MS17-010 (EternalBlue), GPP cPasswords, and Kerberoasting](#part-10-MS17-010-(EternalBlue),-GPP-cPasswords,-and-Kerberoasting)
 - [Part 11 - File Transfers, Pivoting, and Cleanup](#part-11-file-transfers-pivoting-and-cleanup)
-
 ---
 
 # Part 1: Network Scanning with Bash Scripts
