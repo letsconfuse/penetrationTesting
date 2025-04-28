@@ -7,7 +7,7 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 ---
 
 ## Table of Contents
-- [Part 1 - Network Scanning with Bash Scripts](#part-1---network-scanning-with-bash-scripts)
+- [Part 1 - Network Scanning with Bash Scripts](#Part 1: Network Scanning with Bash Scripts)
 - [Part 2 - Python Basics](#part-2---python-basics)
 - [Part 3 - Python Port Scanner](#part-3---python-port-scanner)
 - [Part 4 - Information Gathering](#part-4---information-gathering)
