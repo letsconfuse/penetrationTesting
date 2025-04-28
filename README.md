@@ -8,7 +8,7 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 
 ## Table of Contents
 - [Part 1 - Network Scanning with Bash Scripts](#Part-1---Network-Scanning-with-Bash-Scripts)
-- [Part 2 - Python Basics](#part-2---python-basics)
+- [Part 2 - Python Basics](#Part-2-Python-Basics)
 - [Part 3 - Python Port Scanner](#part-3---python-port-scanner)
 - [Part 4 - Information Gathering](#part-4---information-gathering)
 - [Part 5 - Network Scanning Tools](#part-5---network-scanning-tools)
@@ -150,7 +150,7 @@ In the upcoming parts, we'll dive deeper into using **Python** to automate port 
 
 ---
 
-## Part 2: Python Basics
+# Part 2: Python Basics
 
 ### Python Scripts for Network Tasks and Fuzzing
 
