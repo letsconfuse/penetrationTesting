@@ -14,10 +14,11 @@ The goal of this project is to demonstrate practical knowledge through hands-on 
 - [Part 5 - Network Scanning and Analysis Tools](#part-5-Network-Scanning-and-Analysis-Tools)
 - [Part 6 - Vulnerability Discovery and Enumeration](#part-6-Vulnerability-Discovery-and-Enumeration)
 - [Part 7 - Exploitation, Reverse Shells, and Credential Stuffing](#part-7-Exploitation-Reverse-Shells-and-Credential-Stuffing)
-- [Part 8 - Building an AD Lab, LLMNR Poisoning, and NTLMv2 Cracking with Hashcat](#part-8-Building-an-AD-Lab,-LLMNR-Poisoning,-and-NTLMv2-Cracking-with-Hashcat)
-- [Part 9 - NTLM Relay, Token Impersonation, and PsExec](#part-9-NTLM-Relay,-Token-Impersonation,-and-PsExec)
-- [Part 10 - MS17-010 (EternalBlue), GPP cPasswords, and Kerberoasting](#part-10-MS17-010-(EternalBlue),-GPP-cPasswords,-and-Kerberoasting)
+- [Part 8 - Building an AD Lab, LLMNR Poisoning, and NTLMv2 Cracking with Hashcat](#part-8-Building-an-AD-Lab-LLMNR-Poisoning-and-NTLMv2-Cracking-with-Hashcat)
+- [Part 9 - NTLM Relay, Token Impersonation, and PsExec](#part-9-NTLM-Relay-Token-Impersonation-and-PsExec)
+- [Part 10 - MS17-010 (EternalBlue), GPP cPasswords, and Kerberoasting](#part-10-MS17-010-(EternalBlue)-GPP-cPasswords-and-Kerberoasting)
 - [Part 11 - File Transfers, Pivoting, and Cleanup](#part-11-file-transfers-pivoting-and-cleanup)
+
 ---
 
 # Part 1: Network Scanning with Bash Scripts
